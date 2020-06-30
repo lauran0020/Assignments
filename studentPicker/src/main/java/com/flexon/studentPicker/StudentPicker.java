@@ -10,4 +10,3 @@ public class StudentPicker {
         return names[idx];
     }
 }
-

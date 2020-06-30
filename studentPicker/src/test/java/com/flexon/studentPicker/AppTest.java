@@ -1,4 +1,4 @@
-package com.flexon.stutudentPicker;
+package com.flexon.studentPicker;
 
 import static org.junit.Assert.assertTrue;
 
