@@ -16,7 +16,7 @@ public class App
         }
         catch (FileNotFoundException e) {
             System.out.println("******Invalid File Directory******");
-            System.out.println("Please create an example.txt file in the directory:");
+            System.out.println("Please create an example.txt file in the following directory:");
             System.out.println("src/files/example.txt");
         }
         
