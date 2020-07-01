@@ -6,12 +6,20 @@ import java.util.*;
 public class App 
 {
        
-    public static void main(String[] args) throws FileNotFoundException{
+    public static void main(String[] args){
         readFile r = new readFile();
-        List<String> ans = r.read();
-        for (String s : ans) {
-            System.out.println(s);
+        try {
+            List<String> ans = r.read();
+            for (String s : ans) {
+                System.out.println(s);
+            }
         }
+        catch (FileNotFoundException e) {
+            System.out.println("******Invalid File Directory******");
+            System.out.println("Please create a example.txt file in the directory:");
+            System.out.println("src/files/example.txt");
+        }
+        
     }
         
     
